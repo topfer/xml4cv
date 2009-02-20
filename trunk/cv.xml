@@ -16,7 +16,7 @@
     <telephone>0484 139559</telephone>
     <birthday>27 January 1976</birthday>
   </data>
-
+  <!--
   <section>
     <title>Motivation</title>
     <desc>
@@ -27,7 +27,7 @@
       take a leap into commercial software development.
     </desc>
   </section>
-
+  -->
   <section>
 	<title>Education</title>
 	<desc>
@@ -46,18 +46,106 @@
   </section>
 
   <section>
-	<title>Work experience</title>
+	<title>Certifications</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      2008 LPIC-1 certification (LPI ID : LPI000101766)
+      <desc><url>https://www.lpi.org/verify</url></desc>
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Employment history</title>
 	<desc>
 	</desc>
     <ulist>
     <item>
       1999 - 2000 Internship program with Sysdata Kft, Budapest, part of Siemens IT Solutions
+      <desc>I was involved as part of a small team in creating web based data mining application for Siemens Hicom 4000
+      midrange call centers</desc>
+      <desc>Involved technologies : CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
     </item>
     <item>
       2000 - 2001 Siemens AG, Budapest, Berlin
+      <desc>Part of a larger team developing Web based monitoring application for HiPath telco centers</desc>
+      <desc>Involved technologies : Java, Javascript, RMX, SCOUnix/Linux</desc>
     </item>
     <item>
-      2001 - 2007 Mission Critical SA, Belgium
+      2001 - 2007 Mission Critical SA
+      <desc>I've been part of multiple smaller projects involving some sort of web-based three tier application
+      development and server maintenance</desc>
+      <desc>2001 -      Extensive Perl scripting for PwerBuilder source reverse engineering</desc>
+      <desc>2002 -      VisualJava, improving resource untilization of a large VJava project</desc>
+      <desc>2003 -      VisualJava, improving resource untilization of a large VJava project</desc>
+      <desc>2004 -      Taking part of team developing inhouse PKI implementation, SSO through Apache module</desc>
+      <desc>
+        2005 - 2007 Complinace management system. Involved technologies : XML, XSLT, Apache modules,
+        Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
+      </desc>
+    </item>
+    <item>
+      2008 Freelancer
+      <desc>Part of a larger team developing Web based application using J2EE, Hibernate, Struts, Springs, Eclipse</desc>
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Skills</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      Object Orientated Programming and Design (C++/Java)
+    </item>
+    <item>
+      Extensive OS adminsitration experience involving multiple linux flavours (Debian, Redhat, Suse),
+      MacOSX, Solaris10, FreeBSD, some WindowsServer experience
+    </item>
+    <item>
+      Web development (HTML, XHTML, CSS, ECMAScript/JavaScript)
+    </item>
+    <item>
+      Struts, Hibernate and Spring experience
+    </item>
+    <item>
+      ANT and JUnit scripting
+    </item>
+    <item>
+      MySQL, SQL Server
+    </item>
+    <item>
+      Exposure to Lisp and Python
+    </item>
+    <item>
+      Service administration : Apache, Tomcat, FTP, SSH, LDAP, SVN
+    </item>
+    <item>
+      Service administration : Apache, Tomcat, FTP, SSH, LDAP, SVN
+    </item>
+
+    </ulist>
+  </section>
+
+  <section>
+	<title>Language skills</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      Hungarian, Native language
+    </item>
+    <item>
+      English, Romanian fluent 
+    </item>
+    <item>
+      Flemish, average
+    </item>
+    <item>
+      French, basic
     </item>
     </ulist>
   </section>

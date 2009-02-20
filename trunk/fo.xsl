@@ -74,7 +74,7 @@
 	  <xsl:variable name="photo-width" select="128"/>
 	  <xsl:variable name="photo-height" select="150"/>
 	  <xsl:variable name="photo-scale" select="0.22"/>
-	  
+      <!--
 	  <fo:block-container position="absolute"
 			      left="{210 - 2 * $margin-horiz - $photo-scale * $photo-width}mm"
 			      top="23mm"
@@ -87,7 +87,7 @@
 				   height="{$photo-scale * $photo-height}mm"/>
 	    </fo:block>
 	  </fo:block-container>
-
+      -->
 	  <xsl:apply-templates/>	   
       <!--
 	  <fo:block space-before="5mm" font-size="{$text-size}pt">
@@ -105,7 +105,7 @@
 
   
   <xsl:template match="section|subsection">
-   <fo:table table-layout="fixed" width="100%">
+   <fo:table table-layout="fixed" width="100%" space-before="4mm">
      <fo:table-column column-number="1"/>
      <fo:table-body>
        <fo:table-row keep-with-next="always">
@@ -183,7 +183,7 @@
   </xsl:template>
 
   <xsl:template match="ulist/item">
-    <fo:list-item>
+    <fo:list-item space-before="2mm">
       <fo:list-item-label start-indent="{$item-indent}mm">
 	    <fo:block>&#x2022;</fo:block>
       </fo:list-item-label>
@@ -215,5 +215,11 @@
       <xsl:apply-templates/>
     </fo:block>
   </xsl:template>
-    
+ 
+  <xsl:template match="url">
+    <fo:basic-link external-destination="url('http://www.webucator.com')" color="blue" text-decoration="underline">
+      <xsl:value-of select="."/>
+</fo:basic-link>
+  </xsl:template>
+   
 </xsl:stylesheet>
