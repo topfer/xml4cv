@@ -1,0 +1,65 @@
+<cv uri="http://cactus.rulez.org/cv/">
+  <data>
+    <name>
+      <firstname>Thomas</firstname>
+      <lastname>Fazekas</lastname>
+	  <!-- <title>Dr.</title> -->
+    </name>
+    <email smtp="thomas.fazekas@gmail.com"/>
+    <!-- <homepage uri="http://cactus.rulez.org/"/> -->
+    <address>
+      <country>Belgium</country>
+      <city>Heverlee</city>
+      <street>Ijzerenmolenstraat 22</street>
+      <zip>3001</zip>
+    </address>
+    <telephone>0484 139559</telephone>
+    <birthday>27 January 1976</birthday>
+  </data>
+
+  <section>
+    <title>Motivation</title>
+    <desc>
+      After seven years of develoxping high-quality Free Software,
+      contributing to projects with hundreds of developers from all
+      around the globe, using a wide array of technologies, all the
+      while keeping an eye on the bleeding edge, I am now ready to
+      take a leap into commercial software development.
+    </desc>
+  </section>
+
+  <section>
+	<title>Education</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      1999 - 2000 Technical University of Cluj Post graduate studies (Master course), CS dept.
+    </item>
+    <item>
+      1994 - 1999 Technical University of Cluj-Napoca, Computer Science departement, bachelor's degree
+    </item>
+    <item>
+      1994 Graduated Mihai Eminescu College, Special informatics class
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Work experience</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      1999 - 2000 Internship program with Sysdata Kft, Budapest, part of Siemens IT Solutions
+    </item>
+    <item>
+      2000 - 2001 Siemens AG, Budapest, Berlin
+    </item>
+    <item>
+      2001 - 2007 Mission Critical SA, Belgium
+    </item>
+    </ulist>
+  </section>
+
+</cv>
