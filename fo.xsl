@@ -68,7 +68,7 @@
 	  <fo:flow flow-name="xsl-region-body">
 	  <fo:block font-size="{$headline-size}pt" font-weight="bold" space-after="2mm" width="100%"
 		    text-align="start">
-	    <xsl:value-of select="$text-fullname"/>
+	    <xsl:value-of select="$text-fullname"/> - Curriculum vit&#xe6;
 	  </fo:block>
 	  
 	  <xsl:variable name="photo-width" select="128"/>

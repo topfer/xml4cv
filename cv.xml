@@ -1,4 +1,4 @@
-<cv uri="http://cactus.rulez.org/cv/">
+<cv>
   <data>
     <name>
       <firstname>Thomas</firstname>
@@ -35,9 +35,18 @@
     <ulist>
     <item>
       1999 - 2000 Technical University of Cluj Post graduate studies (Master course), CS dept.
+      <desc>
+        Major in compilers and language grammar
+      </desc>
     </item>
     <item>
       1994 - 1999 Technical University of Cluj-Napoca, Computer Science departement, bachelor's degree
+      <desc>
+        Diploma work : implementing fast, reliable communication protocol over unreliable networks. Practically
+        the choice for the underlying protocol was UDP for its speed and broadcasting capabilities. The protocol
+        itself was a Toke-ring like implementation where each node could brodcast messages as long as it held
+        a token, updating it and passing it on after transmission job was finished.
+      </desc>
     </item>
     <item>
       1994 Graduated Mihai Eminescu College, Special informatics class
@@ -63,10 +72,23 @@
 	</desc>
     <ulist>
     <item>
-      1999 - 2000 Internship program with Sysdata Kft, Budapest, part of Siemens IT Solutions
-      <desc>I was involved as part of a small team in creating web based data mining application for Siemens Hicom 4000
-      midrange call centers</desc>
-      <desc>Involved technologies : CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
+      2008 Freelancer
+      <desc>Part of a larger team developing web based 3-tier system using J2EE, Apache Tomcvat and Oracle 9i/MySQL.
+      Underlying technologies : Hibernate, Struts, Springs, Eclipse</desc>
+    </item>
+    <item>
+      2001 - 2007 Mission Critical SA
+      <desc>I've been part of multiple smaller projects involving some sort of web-based three tier application
+      development and server maintenance. Exposere to RDF, ontologies and logical programing language</desc>
+      <desc>2001 -      Extensive Perl scripting for PowerBuilder source reverse engineering</desc>
+      <desc>2002 -      VisualJava, improving resource utilization of a large VJava project</desc>
+      <desc>2003 -      Taking part of team developing inhouse PKI implementation, SSO through Apache module</desc>
+      <desc>
+        2004 - 2006 Complinace management system. Involved technologies : XML, XSLT, Apache modules,
+        Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
+      </desc>
+      <desc>2006 - 2007 Development of XUL based Web interface for data mining application. Working with
+      RDF, ontologies based workflow</desc>
     </item>
     <item>
       2000 - 2001 Siemens AG, Budapest, Berlin
@@ -74,21 +96,10 @@
       <desc>Involved technologies : Java, Javascript, RMX, SCOUnix/Linux</desc>
     </item>
     <item>
-      2001 - 2007 Mission Critical SA
-      <desc>I've been part of multiple smaller projects involving some sort of web-based three tier application
-      development and server maintenance</desc>
-      <desc>2001 -      Extensive Perl scripting for PwerBuilder source reverse engineering</desc>
-      <desc>2002 -      VisualJava, improving resource untilization of a large VJava project</desc>
-      <desc>2003 -      VisualJava, improving resource untilization of a large VJava project</desc>
-      <desc>2004 -      Taking part of team developing inhouse PKI implementation, SSO through Apache module</desc>
-      <desc>
-        2005 - 2007 Complinace management system. Involved technologies : XML, XSLT, Apache modules,
-        Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
-      </desc>
-    </item>
-    <item>
-      2008 Freelancer
-      <desc>Part of a larger team developing Web based application using J2EE, Hibernate, Struts, Springs, Eclipse</desc>
+      1999 - 2000 Internship program with Sysdata Kft, Budapest, part of Siemens IT Solutions
+      <desc>I was involved as part of a small team in creating web based data mining application for Siemens Hicom 4000
+      midrange call centers</desc>
+      <desc>Involved technologies : CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
     </item>
     </ulist>
   </section>
@@ -118,15 +129,18 @@
       MySQL, SQL Server
     </item>
     <item>
-      Exposure to Lisp and Python
+      Hands on experince with several virtualization methods : XEN, VMWare, KVM, FreeBSD Jails, Solaris10 Containers
     </item>
     <item>
-      Service administration : Apache, Tomcat, FTP, SSH, LDAP, SVN
+      Service administration : Apache, Tomcat, FTP, SSH, LDAP, SVN, MTA, NTP
     </item>
     <item>
-      Service administration : Apache, Tomcat, FTP, SSH, LDAP, SVN
+      Hardware knowledge : Pulled apart/put togehter/upgraded several Dell PowerEdge, Apple XServe and 
+      Sun Fireblade servers. Installed software and hardware RAID 0,1,5
     </item>
-
+    <item>
+      Drivers licence holder
+    </item>
     </ulist>
   </section>
 
@@ -146,6 +160,20 @@
     </item>
     <item>
       French, basic
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Current interests</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      Lisp and Python/django
+    </item>
+    <item>
+      Improving my Flemish language skills
     </item>
     </ulist>
   </section>
