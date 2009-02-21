@@ -10,7 +10,7 @@
     <address>
       <country>Belgium</country>
       <city>Heverlee</city>
-      <street>Ijzerenmolenstraat 22</street>
+      <street>Ijzerenmolenstraat 22, Bus 301</street>
       <zip>3001</zip>
     </address>
     <telephone>0484 139559</telephone>
@@ -111,6 +111,10 @@
     <ulist>
     <item>
       Object Orientated Programming and Design (C++/Java)
+    </item>
+    <item>
+      Scripting experience : Perl/Python. Extensive shell scripting, I was responsible for comprehensive
+      backup shell script, svn monitoring and continuous integration servers
     </item>
     <item>
       Extensive OS adminsitration experience involving multiple linux flavours (Debian, Redhat, Suse),
