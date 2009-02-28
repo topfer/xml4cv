@@ -217,9 +217,10 @@
   </xsl:template>
  
   <xsl:template match="url">
-    <fo:basic-link external-destination="url('http://www.webucator.com')" color="blue" text-decoration="underline">
+    <!-- <fo:basic-link external-destination="url('http://www.webucator.com')" color="blue" text-decoration="underline"> -->
+    <fo:basic-link external-destination="{.}" color="blue" text-decoration="underline"> -->
       <xsl:value-of select="."/>
-</fo:basic-link>
+    </fo:basic-link>
   </xsl:template>
    
 </xsl:stylesheet>

@@ -44,7 +44,7 @@
       <desc>
         Diploma work : implementing fast, reliable communication protocol over unreliable networks. Practically
         the choice for the underlying protocol was UDP for its speed and broadcasting capabilities. The protocol
-        itself was a Toke-ring like implementation where each node could brodcast messages as long as it held
+        itself was a Toke-ring like implementation where each node could broadcast messages as long as it held
         a token, updating it and passing it on after transmission job was finished.
       </desc>
     </item>
@@ -75,18 +75,18 @@
     <ulist>
     <item>
       2008 Freelancer
-      <desc>Part of a larger team developing web based 3-tier system using J2EE, Apache Tomcvat and Oracle 9i/MySQL.
+      <desc>Part of a larger team developing web based 3-tier system using J2EE, Apache Tomcat and Oracle 9i/MySQL.
       Underlying technologies : Hibernate, Struts, Springs, Eclipse</desc>
     </item>
     <item>
       2001 - 2007 Mission Critical SA
-      <desc>I've been part of multiple smaller projects involving some sort of web-based three tier application
-      development and server maintenance. Exposere to RDF, ontologies and logical programing language</desc>
+      <desc>I've been part of multiple smaller projects involving some sort of web-based 3-tier application
+      development and server maintenance. Exposure to RDF, ontologies and logical programing language</desc>
       <desc>2001 -      Extensive Perl scripting for PowerBuilder source reverse engineering</desc>
       <desc>2002 -      VisualJava, improving resource utilization of a large VJava project</desc>
-      <desc>2003 -      Taking part of team developing inhouse PKI implementation, SSO through Apache module</desc>
+      <desc>2003 -      Part of team developing inhouse PKI implementation, SSO through Apache module</desc>
       <desc>
-        2004 - 2006 Complinace management system. Involved technologies : XML, XSLT, Apache modules,
+        2004 - 2006 Compliance management system. Involved technologies : XML, XSLT, Apache modules,
         Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
       </desc>
       <desc>2006 - 2007 Development of XUL based Web interface for data mining application. Working with
@@ -119,7 +119,7 @@
       backup shell script, svn monitoring and continuous integration servers
     </item>
     <item>
-      Extensive OS adminsitration experience involving multiple linux flavours (Debian, Redhat, Suse),
+      Extensive OS administration experience involving multiple linux flavours (Debian, Redhat, Suse),
       MacOSX, Solaris10, FreeBSD, some WindowsServer experience
     </item>
     <item>
@@ -135,7 +135,7 @@
       MySQL, SQL Server
     </item>
     <item>
-      Hands on experince with several virtualization methods : XEN, VMWare, KVM, FreeBSD Jails, Solaris10 Containers
+      Hands on experience with several virtualization methods : XEN, VMWare, KVM, FreeBSD Jails, Solaris10 Containers
     </item>
     <item>
       Service administration : Apache, Tomcat, FTP, SSH, LDAP, SVN, MTA, NTP
@@ -171,12 +171,12 @@
   </section>
 
   <section>
-	<title>Current interests</title>
+	<title>Current (extracurricular) interests</title>
 	<desc>
 	</desc>
     <ulist>
     <item>
-      Lisp and Python/django
+      Lisp/ELisp and Python/django
     </item>
     <item>
       Improving my Flemish language skills
