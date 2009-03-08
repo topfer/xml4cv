@@ -23,18 +23,13 @@
   <xsl:variable name="margin-bottom" select="$margin-vert + 10"/>
   
   <xsl:template match="/">
+
     <xsl:variable name="text-fullname">
-      <xsl:if test="cv/data/name/title">
-	<xsl:value-of select="cv/data/name/title"/>
-	<xsl:text> </xsl:text>
-      </xsl:if>
-      <xsl:value-of select="cv/data/name/firstname"/>
+      <xsl:value-of select="cl/data/name/firstname"/>
       <xsl:text> </xsl:text>
-      <xsl:value-of select="cv/data/name/lastname"/>
+      <xsl:value-of select="cl/data/name/lastname"/>
     </xsl:variable>
 
-    <xsl:variable name="text-cv">Curriculum vit&#xe6;</xsl:variable>
-  
     <fo:root>
       <fo:layout-master-set>
 	<fo:simple-page-master master-name="A4"
@@ -56,16 +51,15 @@
 		    font-size="{$footer-size}pt"
 		    text-align-last="justify">
 	    Page <fo:page-number /> &#8211;
-	    <xsl:value-of select="$text-cv"/> of <xsl:value-of select="$text-fullname"/>
+	    <xsl:value-of select="$text-fullname"/>
 	    <fo:leader leader-pattern="space" />
-	    <fo:inline font-family="Courier New" font-weight="bold"><xsl:value-of select="/cv/@uri"/></fo:inline>
 	  </fo:block>	  
 	</fo:static-content>
 
 	  <fo:flow flow-name="xsl-region-body">
 	  <fo:block font-size="{$headline-size}pt" font-weight="bold" space-after="2mm" width="100%"
 		    text-align="start">
-	    <xsl:value-of select="$text-fullname"/> - Curriculum vit&#xe6;
+	    <xsl:value-of select="$text-fullname"/> - Cover letter
 	  </fo:block>
 	  
 	  <xsl:apply-templates/>	   
@@ -75,39 +69,20 @@
     </fo:root>
   </xsl:template>
 
-  
-  <xsl:template match="section|subsection">
+  <xsl:template match="section">
    <fo:table table-layout="fixed" width="100%" space-before="4mm">
      <fo:table-column column-number="1"/>
      <fo:table-body>
        <fo:table-row keep-with-next="always">
 	 <fo:table-cell>
-	   <xsl:apply-templates select="title"/>
-	 </fo:table-cell>
-       </fo:table-row>
-       <fo:table-row>
-	 <fo:table-cell>
-	   <xsl:apply-templates select="*[2]"/>
+    <fo:block margin-left="{$item-indent}mm" text-align="justify" font-size="{$text-size}pt">
+      <xsl:apply-templates/>
+    </fo:block>
 	 </fo:table-cell>
        </fo:table-row>
      </fo:table-body>
    </fo:table>
-   <xsl:apply-templates select="*[position() > 2]"/>
-  </xsl:template>
-  
-  <xsl:template match="section/title">
-    <fo:block font-size="{$section-size}pt" font-weight="bold" space-after="2mm"
-	      border-bottom-width=".8pt" border-color="black" border-bottom-style="solid"
-	      space-before="3mm"
-	      keep-with-next.within-page="always">
-      <xsl:apply-templates/>
-    </fo:block>
   </xsl:template>
 
-  <xsl:template match="section/desc|subsection/desc">
-    <fo:block margin-left="{$item-indent}mm" text-align="justify" font-size="{$text-size}pt">
-      <xsl:apply-templates/>
-    </fo:block>
-  </xsl:template>
-   
+
 </xsl:stylesheet>
