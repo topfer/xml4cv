@@ -3,10 +3,7 @@
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:fo="http://www.w3.org/1999/XSL/Format">
   
-  <xsl:output method="xml"
-	      encoding="utf-8"
-	      omit-xml-declaration="no"
-	      indent="yes"/>
+  <xsl:output method="xml" encoding="utf-8" omit-xml-declaration="no" indent="yes"/>
 
   <xsl:param name="base-size" select="9"/> <!-- in points -->
   <xsl:param name="headline-size" select="1.8 * $base-size"/>
