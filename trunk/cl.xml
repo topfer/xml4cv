@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <cl>
+
+  <data>
+    <name>
+      <firstname>Thomas</firstname>
+      <lastname>Fazekas</lastname>
+    </name>
+  </data>
+
   <section>
+    <desc>
     I was put in contact with you through Jake Myers at BS Recruitment Specialists. 
     I was made aware of your requirements to hire an Operations Manager and I 
     enclose my resume in application for this role.
+    </desc>
   </section>
+
   <section>
+    <desc>
     My experience as an Operations Manager has included a three year position as 
     Production Manager at Rayburn Plastics where I had direct responsibility 
     for two manufacturing lines over two shifts, a total of 120 employees and an 
     aggressive manufacturing schedule and build plan. Prior to that I was a 
     Production Supervisor for three years with Boston Extrusions Inc where I 
     supervised forty employees and managed all aspects of production planning. 
+    </desc>
   </section>
+
 </cl>
