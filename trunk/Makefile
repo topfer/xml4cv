@@ -2,7 +2,7 @@ XSLTPROC=xsltproc
 FOXSL=fo.xsl
 PREPPROCXSL=preproc.xsl
 
-TRG=cv
+#TRG=cv
 
 default	:	all
 
