@@ -15,7 +15,7 @@
   </section>
 
   <section>
-    My experience as a developer includes two years of development
+    My experience as a Java developer includes two years of development
     at an Ireland based company where I have the responsibility of
     developing a Compliance Knowledge system. At a technical level I
     work with Hibarnate, Spring, Struts, Tomcat and Eclipse.
@@ -25,7 +25,6 @@
     developing a web based data mining application using XML, XSLT, Xalan, Apache.
   </section>
 
-  <!--
   <section>
     I feel that my experience matches the requirements of this position therefore
     please consider my application for the advertised job. Should you agree after reviewing 
@@ -34,9 +33,10 @@
   </section>
 
   <section>
-    Thank you for your time, consideration and forthcoming response.
+    Thank you for your time, consideration and forthcoming response
   </section>
-  -->
+
+  <!--
   <section>
     Should you be considering my application  after reviewing the attached resume, 
     I would welcome a personal meeting for further discussion on your needs and my ability to meet them.
@@ -45,5 +45,5 @@
   <section>
     Thank you for your time, consideration and forthcoming response.
   </section>
-
+  -->
 </cl>
