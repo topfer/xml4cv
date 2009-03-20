@@ -100,9 +100,9 @@
 
   <xsl:template match="data"/>
 
-  
+  <!--
   <xsl:template match="section|subsection">
-   <fo:table table-layout="fixed" width="100%" space-before="4mm">
+   <fo:table table-layout="fixed" width="400px" space-before="8mm">
      <fo:table-column column-number="1"/>
      <fo:table-body>
        <fo:table-row keep-with-next="always">
@@ -119,11 +119,13 @@
    </fo:table>
    <xsl:apply-templates select="*[position() > 2]"/>
   </xsl:template>
-  
+  -->
+
+
   <xsl:template match="section/title">
     <fo:block font-size="{$section-size}pt" font-weight="bold" space-after="2mm"
 	      border-bottom-width=".8pt" border-color="black" border-bottom-style="solid"
-	      space-before="3mm"
+	      space-before="10mm" width="400px" border="2px"
 	      keep-with-next.within-page="always">
       <xsl:apply-templates/>
     </fo:block>
