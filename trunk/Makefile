@@ -21,10 +21,10 @@ gencv	:
 genfo	:	gencv
 			$(XSLTPROC) -o step2.fo $(TRG)_fo.xsl step1.xml
 
-genpdf	:	genfo
+gentrg	:	genfo
 			fop -fo step2.fo -$(TRGFORMAT) $(TRG).$(TRGFORMAT)
 
-genall	:	genpdf
+genall	:	gentrg
 
 all		:	genall
 			open $(TRG).$(TRGFORMAT)
