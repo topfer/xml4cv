@@ -2,11 +2,15 @@ XSLTPROC=xsltproc
 FOXSL=fo.xsl
 PREPPROCXSL=preproc.xsl
 
-TRGFORMAT=pdf
+#TRGFORMAT=pdf
 #TRG=cv
 
 ifndef TRG
   TRG=cv
+endif
+
+ifndef TRGFORMAT
+  TRGFORMAT=pdf
 endif
 
 default	:	all
@@ -26,4 +30,4 @@ all		:	genall
 			open $(TRG).$(TRGFORMAT)
 
 clean	:
-			rm -f step1.xml step2.fo *.pdf
+			rm -f step1.xml step2.fo *.pdf *.txt *.rtf *.png
