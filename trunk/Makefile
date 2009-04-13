@@ -1,32 +1,27 @@
 XSLTPROC=xsltproc
-FOXSL=fo.xsl
-PREPPROCXSL=preproc.xsl
 
 #TRGFORMAT=pdf
 #TRG=cv
-
-ifndef TRG
-  TRG=cv
-endif
 
 ifndef TRGFORMAT
   TRGFORMAT=pdf
 endif
 
-default	:	all
+SRCFILES := $(wildcard *.xml)
+TRGFILES := $(patsubst %.xml,%.pdf,$(wildcard *.xml))
 
-gencv	:
-			$(XSLTPROC) -o step1.xml $(TRG).preproc.xsl $(TRG).xml
+default		:	all
 
-genfo	:	gencv
-			$(XSLTPROC) -o step2.fo $(TRG).fo.xsl step1.xml
+%.pre.xml	:
+			$(XSLTPROC) -o step1.xml $*.preproc.xsl $*.xml
 
-gentrg	:	genfo
-			fop -fo step2.fo -$(TRGFORMAT) $(TRG).$(TRGFORMAT)
+%.fo		:	%.pre.xml
+			$(XSLTPROC) -o step2.fo $*.fo.xsl step1.xml
 
-genall	:	gentrg
+%.pdf		:	%.fo
+			fop -fo step2.fo -$(TRGFORMAT) $(*).$(TRGFORMAT)
 
-all		:	genall
+all			:	$(TRGFILES)
 
-clean	:
+clean		:
 			rm -f step1.xml step2.fo *.pdf *.txt *.rtf *.png
