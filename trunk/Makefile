@@ -16,9 +16,9 @@ default				:	all
 					$(XSLTPROC) -o step2.fo $*.fo.xsl step1.xml
 
 %.$(TRGLANG).trg	:	%.fo
-					fop -fo step2.fo -pdf $(*).$(TRGLANG).pdf
+					fop -fo step2.fo -pdf $*.$(TRGLANG).pdf
 					fop -fo step2.fo -dpi 128 -png $(*).$(TRGLANG).png
-					fop -fo step2.fo -rtf $(*).$(TRGLANG).rtf
+					fop -fo step2.fo -rtf $*.$(TRGLANG).rtf
 
 all					:	$(TRGFILES)
 
