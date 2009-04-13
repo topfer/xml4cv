@@ -7,20 +7,26 @@ endif
 SRCFILES := $(wildcard *.xml)
 TRGFILES := $(patsubst %.xml,%.trg,$(wildcard *.xml))
 
-default				:	all
+default			:	all
 
-%.pre.xml			:
-					$(XSLTPROC) -o step1.xml $*.preproc.xsl $*.$(TRGLANG).xml
+cv.%.pre.xml	:
+				$(XSLTPROC) -o tmp.step1.xml cv.preproc.xsl cv.$*.xml
 
-%.fo				:	%.pre.xml
-					$(XSLTPROC) -o step2.fo $*.fo.xsl step1.xml
+cl.%.pre.xml	:
+				$(XSLTPROC) -o tmp.step1.xml cl.preproc.xsl cl.$*.xml
 
-%.$(TRGLANG).trg	:	%.fo
-					fop -fo step2.fo -pdf $*.$(TRGLANG).pdf
-					fop -fo step2.fo -dpi 128 -png $(*).$(TRGLANG).png
-					fop -fo step2.fo -rtf $*.$(TRGLANG).rtf
+cv.%.fo			:	cv.%.pre.xml
+				$(XSLTPROC) -o tmp.step2.fo cv.fo.xsl tmp.step1.xml
 
-all					:	$(TRGFILES)
+cl.%.fo			:	cl.%.pre.xml
+				$(XSLTPROC) -o tmp.step2.fo cl.fo.xsl tmp.step1.xml
 
-clean				:
-					rm -f step1.xml step2.fo *.pdf *.txt *.rtf *.png
+%.trg			:	%.fo
+				fop -fo tmp.step2.fo -pdf $*.pdf
+				fop -fo tmp.step2.fo -dpi 128 -png $*.png
+				fop -fo tmp.step2.fo -rtf $*.rtf
+
+all				:	$(TRGFILES)
+
+clean			:
+				rm -f tmp.* *.pdf *.txt *.rtf *.png
