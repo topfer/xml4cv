@@ -17,7 +17,7 @@ default				:	all
 
 %.$(TRGLANG).trg	:	%.fo
 					fop -fo step2.fo -pdf $(*).$(TRGLANG).pdf
-					fop -fo step2.fo -png $(*).$(TRGLANG).png
+					fop -fo step2.fo -dpi 128 -png $(*).$(TRGLANG).png
 					fop -fo step2.fo -rtf $(*).$(TRGLANG).rtf
 
 all					:	$(TRGFILES)
