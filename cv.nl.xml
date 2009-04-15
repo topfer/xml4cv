@@ -44,9 +44,9 @@
     <item>
       1994 - 1999 Technical University of Cluj-Napoca, Romania, Computer Science departement, bachelor's degree
       <desc>
-        Diploma werk : ontwikkelen en uitvoeren een snel, betrouwbaar communication protocol over onbetrouwbaar netwerk. 
-        De basis protocol was UDP voor snellheid, efficiëntie een de  
-        the choice for the underlying protocol was UDP for its speed and broadcasting capabilities. The protocol
+        Diploma werk : ontwikkelen en uitvoeren een snel, betrouwbaar communicatie protocol over onbetrouwbaar netwerk. 
+        De basis protocol was UDP voor snellheid, efficiëntie een de broadcast mogelijkheid.
+        The protocol
         itself was a Toke-ring like implementation where each node could broadcast messages as long as it held
         a token, updating it and passing it on after transmission job was finished.
       </desc>
