@@ -38,13 +38,14 @@
     <item>
       1999 - 2000 Technical University of Cluj-Napoca, Romania, Post graduate studies (Master course), CS dept.
       <desc>
-        Major in compilers and language grammar
+        Hoofdvak talen gramatica en compilers
       </desc>
     </item>
     <item>
       1994 - 1999 Technical University of Cluj-Napoca, Romania, Computer Science departement, bachelor's degree
       <desc>
-        Diploma work : implementing fast, reliable communication protocol over unreliable networks. Practically
+        Diploma werk : ontwikkelen en uitvoeren een snel, betrouwbaar communication protocol over onbetrouwbaar netwerk. 
+        De basis protocol was UDP voor snellheid, efficiëntie een de  
         the choice for the underlying protocol was UDP for its speed and broadcasting capabilities. The protocol
         itself was a Toke-ring like implementation where each node could broadcast messages as long as it held
         a token, updating it and passing it on after transmission job was finished.
@@ -109,7 +110,7 @@
   </section>
 
   <section>
-	<title>Skills</title>
+	<title>Technische vaardigheden en competenties</title>
 	<desc>
 	</desc>
     <ulist>
