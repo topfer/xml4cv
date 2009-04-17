@@ -44,21 +44,19 @@
     <item>
       1994 - 1999 Technical University of Cluj-Napoca, Romania, Computer Science departement, bachelor's degree
       <desc>
-        Diploma werk : ontwikkelen en uitvoeren een snel, betrouwbaar communicatie protocol over onbetrouwbaar netwerk. 
-        De basis protocol was UDP voor snellheid, efficiëntie een de broadcast mogelijkheid.
-        The protocol
-        itself was a Toke-ring like implementation where each node could broadcast messages as long as it held
-        a token, updating it and passing it on after transmission job was finished.
+        Diploma werk : ontwikkelen en uitvoeren een snel, betrouwbaar communicatie protocol over een onbetrouwbaar netwerk. 
+        De basis protocol was UDP voor snellheid, efficiëntie een de broadcast mogelijkheid, waar elk knooppunt in de netwerk 
+        krijgt de mogelijkheid te broadcast waneer ontvangt een speciefieke informatiepakkett (token)
       </desc>
     </item>
     <item>
-      1994 Graduated Mihai Eminescu College, Special informatics class
+      1994 Mihai Eminescu College, Special informatics class
     </item>
     </ulist>
   </section>
 
   <section>
-	<title>Certifications</title>
+	<title>Opleiding</title>
 	<desc>
 	</desc>
     <ulist>
