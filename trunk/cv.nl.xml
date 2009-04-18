@@ -75,22 +75,22 @@
 	</desc>
     <ulist>
     <item>
-      2008 Freelancer
-      <desc>Part of a larger team developing web based 3-tier system using J2EE, Apache Tomcat and Oracle 9i/MySQL.
-      Underlying technologies : Hibernate, Struts, Springs, Eclipse</desc>
+      2008 Zelfstandig, Leuven, Belgium
+      <desc>Maakt deel uit van een groter werken met web based 3-tier system using J2EE, Apache Tomcat, Oracle 9i/MySQL.
+      Gebruikte technologies : Hibernate, Struts, Springs, Eclipse</desc>
     </item>
     <item>
-      2001 - 2007 Mission Critical SA
+      2001 - 2007 Mission Critical SA, Kortenberg, Belgium
       <desc>I've been part of multiple smaller projects involving some sort of web-based 3-tier application
       development and server maintenance. Exposure to RDF, ontologies and logical programing language</desc>
-      <desc>2001 -      Extensive Perl scripting for PowerBuilder source reverse engineering</desc>
-      <desc>2002 -      VisualJava, improving resource utilization of a large VJava project</desc>
-      <desc>2003 -      Part of team developing inhouse PKI implementation, SSO through Apache module</desc>
+      <desc>2001 -      Perl scripting voor PowerBuilder source reverse engineering (Perl)</desc>
+      <desc>2002 -      VisualJava, verbeteren geheugen gebruik van een groot VJava project (Java)</desc>
+      <desc>2003 -      Ontwikkelen inhouse PKI system, SSO through Apache module (C/C++)</desc>
       <desc>
-        2004 - 2006 Compliance management system. Involved technologies : XML, XSLT, Apache modules,
+        2004 - 2006 Compliance management system. Technologies : XML, XSLT, Apache modules,
         Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
       </desc>
-      <desc>2006 - 2007 Development of XUL based Web interface for data mining application. Working with
+      <desc>2006 - 2007 Ontwikkelen XUL based Web interface for data mining application. Working with
       RDF, ontologies based workflow</desc>
     </item>
     <item>
