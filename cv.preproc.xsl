@@ -18,7 +18,7 @@
   <xsl:template match="data">
     <xsl:copy-of select="."/>
     <section>
-      <title>Personal information</title>
+      <title><xsl:value-of select="@display"/></title>
       <xsl:apply-templates/>
     </section>
   </xsl:template>
@@ -86,7 +86,8 @@
     </item>
   </xsl:template>
 
-  <xsl:template match="data/age">
+  <!--
+  <Xsl:template match="data/age">
     <item>
       <title><xsl:value-of select="@display"/>:</title>
       <desc>
@@ -94,8 +95,8 @@
       </desc>
     </item>
   </xsl:template>  
-
-  <!--
+  -->
+  
   <xsl:template match="data/birthday">
     <item>
       <title>Date of birth:</title>
@@ -104,5 +105,5 @@
       </desc>
     </item>
   </xsl:template>  
-  -->
+
 </xsl:stylesheet>

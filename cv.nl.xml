@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <cv>
-  <data>
+  <data display="Persoonlijke gegevens">
     <name display="Naam">
       <firstname>Thomas</firstname>
       <lastname>Fazekas</lastname>
@@ -107,6 +107,8 @@
     </item>
     </ulist>
   </section>
+
+  <page-break/>
 
   <section>
 	<title>Technische vaardigheden en competenties</title>
