@@ -2,21 +2,22 @@
 
 <cv>
   <data>
-    <name>
+    <name display="Name">
       <firstname>Thomas</firstname>
       <lastname>Fazekas</lastname>
 	  <!-- <title>Dr.</title> -->
     </name>
-    <email smtp="thomas.fazekas@gmail.com"/>
+    <email smtp="thomas.fazekas@gmail.com" display="Email"/>
     <!-- <homepage uri="http://cactus.rulez.org/"/> -->
-    <address>
+    <address display="Address">
       <country>Belgium</country>
       <city>Heverlee</city>
       <street>Ijzerenmolenstraat 22, Bus 301</street>
       <zip>3001</zip>
     </address>
-    <telephone>0470 598579</telephone>
-    <birthday>27 January 1976</birthday>
+    <telephone display="Telephone">0470 598579</telephone>
+    <birthday display="Birthday">27 January 1976</birthday>
+    <age display="Age">32</age>
   </data>
   <!--
   <section>
@@ -81,7 +82,7 @@
       Underlying technologies : Hibernate, Struts, Springs, Eclipse</desc>
     </item>
     <item>
-      2001 - 2007 Mission Critical SA
+      2001 - 2007 Mission Critical SA, Belgium
       <desc>I've been part of multiple smaller projects involving some sort of web-based 3-tier application
       development and server maintenance. Exposure to RDF, ontologies and logical programing language</desc>
       <desc>2001 -      Extensive Perl scripting for PowerBuilder source reverse engineering</desc>
@@ -114,18 +115,18 @@
 	</desc>
     <ulist>
     <item>
-      Object Orientated Programming and Design (C++/Java)
+      Object Orientated Programming and Design (5 yers C/C++, 3 years Java)
     </item>
     <item>
       Scripting experience : Perl/Python. Extensive shell scripting, I was responsible for comprehensive
-      backup shell script, svn monitoring and continuous integration servers
+      backup shell script, Tomcat, mysql, svn monitoring and continuous integration servers
     </item>
     <item>
       Extensive OS administration experience involving multiple linux flavours (Debian, Redhat, Suse),
       MacOSX, Solaris10, FreeBSD, some WindowsServer experience
     </item>
     <item>
-      Web development (HTML, XHTML, CSS, ECMAScript/JavaScript)
+      Web development (XHTML, CSS, XSLT, ECMAScript/JavaScript)
     </item>
     <item>
       Struts, Hibernate and Spring experience

@@ -2,21 +2,22 @@
 
 <cv>
   <data>
-    <name>
+    <name display="Naam">
       <firstname>Thomas</firstname>
       <lastname>Fazekas</lastname>
 	  <!-- <title>Dr.</title> -->
     </name>
-    <email smtp="thomas.fazekas@gmail.com"/>
+    <email smtp="thomas.fazekas@gmail.com" display="Email"/>
     <!-- <homepage uri="http://cactus.rulez.org/"/> -->
-    <address>
+    <address display="Adres">
       <country>Belgium</country>
       <city>Heverlee</city>
       <street>Ijzerenmolenstraat 22, Bus 301</street>
       <zip>3001</zip>
     </address>
-    <telephone>0470 598579</telephone>
-    <birthday>27 January 1976</birthday>
+    <telephone display="Telefoon">0470 598579</telephone>
+    <birthday display="Geboortedatum">27 January 1976</birthday>
+    <age display="Leeftijd">32</age>
   </data>
   <!--
   <section>
@@ -90,17 +91,17 @@
         2004 - 2006 Compliance management system. Technologies : XML, XSLT, Apache modules,
         Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
       </desc>
-      <desc>2006 - 2007 Ontwikkelen XUL based Web interface for data mining application. Working with
+      <desc>2006 - 2007 Ontwikkelen XUL based Web interface voor data mining system. Technologies
       RDF, ontologies based workflow</desc>
     </item>
     <item>
       2000 - 2001 Siemens AG, Budapest, Berlin
-      <desc>Part of a larger team developing Web based monitoring application for HiPath telco centers</desc>
-      <desc>Involved technologies : Java, Javascript, RMX, SCOUnix/Linux</desc>
+      <desc>Maakt deel uit van een groter team ontwikkelen Web based monitoring aplicatie voor HiPath telco centers</desc>
+      <desc>Technologies : Java, Javascript, RMX, SCOUnix/Linux</desc>
     </item>
     <item>
-      1999 - 2000 Internship program with Sysdata Kft, Budapest, part of Siemens IT Solutions
-      <desc>I was involved as part of a small team in creating web based data mining application for Siemens Hicom 4000
+      1999 - 2000 Internship program met Sysdata Kft, Budapest, deel van Siemens IT Solutions
+      <desc>Deel van een 2 person team in creating web based data mining application for Siemens Hicom 4000
       midrange call centers</desc>
       <desc>Involved technologies : CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
     </item>
@@ -113,40 +114,39 @@
 	</desc>
     <ulist>
     <item>
-      Object Orientated Programming and Design (C++/Java)
+      Object Orientated Programming and Design (5 jaar C/C++, 3 jaar Java)
     </item>
     <item>
-      Scripting experience : Perl/Python. Extensive shell scripting, I was responsible for comprehensive
-      backup shell script, svn monitoring and continuous integration servers
+      Scripting : Perl/Python. Shell scripting, verantwoordelijk voor
+      samba backup shell scripts, Tomcat, mysql, svn monitoring een continuous integration servers
     </item>
     <item>
-      Extensive OS administration experience involving multiple linux flavours (Debian, Redhat, Suse),
-      MacOSX, Solaris10, FreeBSD, some WindowsServer experience
+      Systeembeheerder linux flavours (Debian, Redhat, Suse), MacOSX, Solaris10, FreeBSD
     </item>
     <item>
-      Web development (HTML, XHTML, CSS, ECMAScript/JavaScript)
+      Web development (XHTML, CSS, XSLT, ECMAScript/JavaScript)
     </item>
     <item>
-      Struts, Hibernate and Spring experience
+      Struts/Hibernate/Spring 
     </item>
     <item>
-      ANT and JUnit scripting
+      ANT,JUnit scripting
     </item>
     <item>
       MySQL, SQL Server
     </item>
     <item>
-      Hands on experience with several virtualization methods : XEN, VMWare, KVM, FreeBSD Jails, Solaris10 Containers
+      Virtualisatie : XEN, VMWare, KVM, FreeBSD Jails, Solaris10 Containers
     </item>
     <item>
       Service administration : Apache, Tomcat, FTP, SSH, LDAP, SVN, MTA, NTP
     </item>
     <item>
-      Hardware knowledge : Pulled apart/put togehter/upgraded several Dell PowerEdge, Apple XServe and 
-      Sun Fireblade servers. Installed software and hardware RAID 0,1,5
+      Hardware : Upgrade Dell PowerEdge, Apple XServe and 
+      Sun Fireblade servers. Instalatie van software and hardware RAID 0,1,5
     </item>
     <item>
-      Drivers licence holder
+      Rijbewijs cat B
     </item>
     </ulist>
   </section>
@@ -157,16 +157,16 @@
 	</desc>
     <ulist>
     <item>
-      Hungarian, Native language
+      Hongaars moedertaal
     </item>
     <item>
-      English, Romanian fluent 
+      Engels, Roemeens vloeiend  
     </item>
     <item>
-      Flemish, average
+      Nederlands redelijk goed
     </item>
     <item>
-      French, basic
+      Frans basic
     </item>
     </ulist>
   </section>
@@ -180,7 +180,7 @@
       Lisp/ELisp and Python/django
     </item>
     <item>
-      Improving my Flemish language skills
+      Mijn nederlands verbeteren
     </item>
     </ulist>
   </section>
