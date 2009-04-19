@@ -221,5 +221,11 @@
       <xsl:value-of select="."/>
     </fo:basic-link>
   </xsl:template>
+
+  <xsl:template match="page-break">
+      <fo:block break-before="page">
+          <xsl:apply-templates/>
+      </fo:block>
+  </xsl:template>
    
 </xsl:stylesheet>
