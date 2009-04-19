@@ -25,7 +25,7 @@
 
   <xsl:template match="data/name">
     <item>
-      <title>Name:</title>
+      <title><xsl:value-of select="@display"/>:</title>
       <desc>
 	    <xsl:if test="title">
 	      <xsl:apply-templates select="title"/>
@@ -40,7 +40,7 @@
 
   <xsl:template match="data/address">
     <item>
-      <title>Address:</title>
+      <title><xsl:value-of select="@display"/>:</title>
       <desc>
 	    <xsl:apply-templates select="street"/>,
 	    <xsl:apply-templates select="city"/>,
@@ -53,21 +53,21 @@
   
   <xsl:template match="data/telephone">
     <item>
-      <title>Telephone:</title>
+      <title><xsl:value-of select="@display"/>:</title>
       <desc><xsl:apply-templates/></desc>
     </item>
   </xsl:template>
   
   <xsl:template match="data/email[@smtp]">
     <item>
-      <title>E-mail:</title>
+      <title><xsl:value-of select="@display"/>:</title>
       <desc><a href="mailto:{@smtp}"><xsl:value-of select="@smtp"/></a></desc>
     </item>
   </xsl:template>
 
   <xsl:template match="data/email[not (@smtp)]">
     <item>
-      <title>E-mail:</title>
+      <title><xsl:value-of select="@display"/>:</title>
       <desc><xsl:apply-templates/></desc>
     </item>
   </xsl:template>
@@ -86,6 +86,16 @@
     </item>
   </xsl:template>
 
+  <xsl:template match="data/age">
+    <item>
+      <title><xsl:value-of select="@display"/>:</title>
+      <desc>
+        <xsl:apply-templates/>
+      </desc>
+    </item>
+  </xsl:template>  
+
+  <!--
   <xsl:template match="data/birthday">
     <item>
       <title>Date of birth:</title>
@@ -94,5 +104,5 @@
       </desc>
     </item>
   </xsl:template>  
-
+  -->
 </xsl:stylesheet>
