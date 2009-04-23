@@ -78,32 +78,32 @@
     <item>
       2008 Zelfstandig, Leuven, Belgium
       <desc>Maakt deel uit van een groter werken met web based 3-tier system using J2EE, Apache Tomcat, Oracle 9i/MySQL.
-      Gebruikte technologies : Hibernate, Struts, Springs, Eclipse</desc>
+      Gebruikte technologies : Hibernate, Struts, Springs, Eclipse (Java)</desc>
     </item>
     <item>
       2001 - 2007 Mission Critical SA, Kortenberg, Belgium
       <desc>Meerdere ontwikkelingsprojecten met web-based 3-tier aplicaties
       een server beheerder. Werken met RDF, ontologies and logical programing language</desc>
-      <desc>2001 -      Perl scripting voor PowerBuilder source reverse engineering (Perl)</desc>
+      <desc>2001 -      Perl scripting voor PowerBuilder source reverse engineering (C/C++, Perl)</desc>
       <desc>2002 -      VisualJava, verbeteren geheugen gebruik van een groot VJava project (Java)</desc>
       <desc>2003 -      Ontwikkelen inhouse PKI system, SSO through Apache module (C/C++)</desc>
       <desc>
-        2004 - 2006 Compliance management system. Technologies : XML, XSLT, Apache modules,
+        2004 - 2006 Compliance management system. Technologies : C/C++, XML, XSLT, Apache modules,
         Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
       </desc>
       <desc>2006 - 2007 Ontwikkelen XUL based Web interface voor data mining system. Technologies
-      RDF, ontologies based workflow</desc>
+      RDF, ontologies based workflow (XUL, CSS, Javascript)</desc>
     </item>
     <item>
       2000 - 2001 Siemens AG, Budapest, Berlin
       <desc>Maakt deel uit van een groter team ontwikkelen Web based monitoring aplicatie voor HiPath telco centers</desc>
-      <desc>Technologies : Java, Javascript, RMX, SCOUnix/Linux</desc>
+      <desc>Technologies : C/C++, Java, Javascript, RMX, SCOUnix/Linux</desc>
     </item>
     <item>
       1999 - 2000 Internship program met Sysdata Kft, Budapest, deel van Siemens IT Solutions
       <desc>Deel van een 2 person team in creating web based data mining application for Siemens Hicom 4000
       midrange call centers</desc>
-      <desc>Involved technologies : CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
+      <desc>Involved technologies : C/C++, CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
     </item>
     </ulist>
   </section>

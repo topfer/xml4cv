@@ -79,32 +79,32 @@
     <item>
       2008 Freelancer
       <desc>Part of a larger team developing web based 3-tier system using J2EE, Apache Tomcat and Oracle 9i/MySQL.
-      Underlying technologies : Hibernate, Struts, Springs, Eclipse</desc>
+      Underlying technologies : Hibernate, Struts, Springs, Eclipse (Java)</desc>
     </item>
     <item>
       2001 - 2007 Mission Critical SA, Belgium
       <desc>I've been part of multiple smaller projects involving some sort of web-based 3-tier application
       development and server maintenance. Exposure to RDF, ontologies and logical programing language</desc>
-      <desc>2001 -      Extensive Perl scripting for PowerBuilder source reverse engineering</desc>
-      <desc>2002 -      VisualJava, improving resource utilization of a large VJava project</desc>
-      <desc>2003 -      Part of team developing inhouse PKI implementation, SSO through Apache module</desc>
+      <desc>2001 -      Extensive Perl scripting for PowerBuilder source reverse engineering (C/C++, Perl)</desc>
+      <desc>2002 -      VisualJava, improving resource utilization of a large VJava project (Java)</desc>
+      <desc>2003 -      Part of team developing inhouse PKI implementation, SSO through Apache module (C/C++)</desc>
       <desc>
-        2004 - 2006 Compliance management system. Involved technologies : XML, XSLT, Apache modules,
+        2004 - 2006 Compliance management system. Involved technologies : C/C++, XML, XSLT, Apache modules,
         Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
       </desc>
       <desc>2006 - 2007 Development of XUL based Web interface for data mining application. Working with
-      RDF, ontologies based workflow</desc>
+      RDF, ontologies based workflow (XUL, CSS, Javascript)</desc>
     </item>
     <item>
       2000 - 2001 Siemens AG, Budapest, Berlin
       <desc>Part of a larger team developing Web based monitoring application for HiPath telco centers</desc>
-      <desc>Involved technologies : Java, Javascript, RMX, SCOUnix/Linux</desc>
+      <desc>Involved technologies : C/C++, Java, Javascript, RMX, SCOUnix/Linux</desc>
     </item>
     <item>
       1999 - 2000 Internship program with Sysdata Kft, Budapest, part of Siemens IT Solutions
       <desc>I was involved as part of a small team in creating web based data mining application for Siemens Hicom 4000
       midrange call centers</desc>
-      <desc>Involved technologies : CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
+      <desc>Involved technologies : C/C++, CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
     </item>
     </ulist>
   </section>
