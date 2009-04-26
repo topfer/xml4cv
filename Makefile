@@ -29,4 +29,5 @@ cl.%.fo			:	cl.%.pre.xml
 all				:	$(TRGFILES)
 
 clean			:
-				rm -f tmp.* *.pdf *.txt *.rtf *.png
+				rm -f tmp.* *.pdf *.txt *.rtf *.png *~
+				
