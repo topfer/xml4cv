@@ -19,18 +19,7 @@
     <birthday display="Geboortedatum">27 January 1976</birthday>
     <age display="Leeftijd">32 jaar</age>
   </data>
-  <!--
-  <section>
-    <title>Motivation</title>
-    <desc>
-      After seven years of develoxping high-quality Free Software,
-      contributing to projects with hundreds of developers from all
-      around the globe, using a wide array of technologies, all the
-      while keeping an eye on the bleeding edge, I am now ready to
-      take a leap into commercial software development.
-    </desc>
-  </section>
-  -->
+
   <section>
 	<title>Opleiding</title>
 	<desc>
@@ -62,7 +51,7 @@
 	</desc>
     <ulist>
     <item>
-      2008 Linux Professional Institute level 1 certification
+      <title>2008 Linux Professional Institute level 1 certification (Leuven, Begium)</title>
       <desc><url>https://www.lpi.org/verify</url></desc>
       <desc>LPI ID : LPI000101766</desc>
       <desc>Verification code : bfeqzwqa7w</desc>
@@ -76,31 +65,35 @@
 	</desc>
     <ulist>
     <item>
-      2008 Zelfstandig, Leuven, Belgium
+      <title>2008 Zelfstandig, Leuven, Belgium</title>
       <desc>Maakt deel uit van een groter werken met web based 3-tier system using J2EE, Apache Tomcat, Oracle 9i/MySQL.
       Gebruikte technologies : Hibernate, Struts, Springs, Eclipse (Java)</desc>
+      <desc>Taken : Java ontwikkeling, System een netwerk beheerder</desc>
     </item>
     <item>
-      2001 - 2007 Mission Critical SA, Kortenberg, Belgium
+      <title>2001 - 2007 Mission Critical SA, Kortenberg, Belgium</title>
       <desc>Meerdere ontwikkelingsprojecten met web-based 3-tier aplicaties
-      een server beheerder. Werken met RDF, ontologies and logical programing language</desc>
-      <desc>2001 -      Perl scripting voor PowerBuilder source reverse engineering (C/C++, Perl)</desc>
-      <desc>2002 -      VisualJava, verbeteren geheugen gebruik van een groot VJava project (Java)</desc>
-      <desc>2003 -      Ontwikkelen inhouse PKI system, SSO through Apache module (C/C++)</desc>
-      <desc>
-        2004 - 2006 Compliance management system. Technologies : C/C++, XML, XSLT, Apache modules,
-        Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
-      </desc>
-      <desc>2006 - 2007 Ontwikkelen XUL based Web interface voor data mining system. Technologies
-      RDF, ontologies based workflow (XUL, CSS, Javascript)</desc>
+      een server beheerder. Werken met XEN, KVM, VMWare, RDF, Ontologies en logical programing taal</desc>
+      <subtitle>PowerBuilder source reverse engineering</subtitle>
+      <subdesc>Technologien : Perl</subdesc>
+      <subtitle>verbeteren geheugen gebruik van een groot VJava project</subtitle>
+      <subdesc>Technologien : Java, Javascript, DOM</subdesc>
+      <subtitle>Ontwikkelen inhouse PKI system</subtitle>
+      <subdesc>Technologien : C/C++, PKI, Apache modules, LDAP, COM</subdesc>
+      <subtitle>Compliance management system</subtitle>
+      <subdesc>Technologien : C/C++, XML, XSLT, Apache modules, Xalan/Xerces</subdesc>
+      <subdesc>Services : Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution</subdesc>
+      <subtitle>Ontwikkelen XUL based Web interface voor data mining system</subtitle>
+      <subdesc>Technologien : RDF, Ontologies based workflow, XUL, CSS, Javascript</subdesc>
     </item>
     <item>
-      2000 - 2001 Siemens AG, Budapest, Berlin
+      <title>2000 - 2001 Siemens AG, Budapest, Berlin</title>
       <desc>Maakt deel uit van een groter team ontwikkelen Web based monitoring aplicatie voor HiPath telco centers</desc>
-      <desc>Technologies : C/C++, Java, Javascript, RMX, SCOUnix/Linux</desc>
+      <desc>Technologies : C/C++, Java, Javascript</desc>
+      <desc>Services : SCOUnix/Unixware, Linux</desc>
     </item>
     <item>
-      1999 - 2000 Internship program met Sysdata Kft, Budapest, deel van Siemens IT Solutions
+      <title>1999 - 2000 Internship program met Sysdata Kft, Budapest, deel van Siemens IT Solutions</title>
       <desc>Deel van een 2 person team in creating web based data mining application for Siemens Hicom 4000
       midrange call centers</desc>
       <desc>Involved technologies : C/C++, CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
@@ -108,7 +101,7 @@
     </ulist>
   </section>
 
-  <page-break/>
+  <!-- <page-break/> -->
 
   <section>
 	<title>Technische vaardigheden en competenties</title>
