@@ -10,10 +10,14 @@
   <xsl:param name="section-size" select="1.4 * $base-size"/>
   <xsl:param name="subsection-size" select="1.2 * $base-size"/>
   <xsl:param name="text-size" select="1.0 * $base-size"/>
+  <xsl:param name="item-title-size" select="1.1 * $base-size"/>
   <xsl:param name="footer-size" select="0.9 * $base-size"/>
   
   <xsl:param name="item-indent" select="3"/> <!-- in milimeters -->
   <xsl:param name="item-spacing" select="2"/> <!-- in milimeters -->
+  <xsl:param name="item-content-indent" select="4"/> <!-- in milimeters -->
+  <xsl:param name="subtitle-indent" select="4"/> <!-- in milimeters -->
+  <xsl:param name="subdesc-indent" select="6"/> <!-- in milimeters -->
   <xsl:param name="margin-horiz" select="25"/>
   <xsl:param name="margin-vert" select="15"/>
 
@@ -125,22 +129,13 @@
   <xsl:template match="section/title">
     <fo:block font-size="{$section-size}pt" font-weight="bold" space-after="2mm"
 	      border-bottom-width=".8pt" border-color="black" border-bottom-style="solid"
-	      space-before="10mm" width="400px" border="2px"
+	      space-before="8mm" width="400px" border="2px"
 	      keep-with-next.within-page="always">
       <xsl:apply-templates/>
     </fo:block>
   </xsl:template>
 
-  <xsl:template match="subsection/title">
-    <fo:block font-size="{$subsection-size}pt" font-weight="bold" space-after="2mm"
-	      border-bottom-width=".8pt" border-color="rgb(210,210,210)" border-bottom-style="solid"
-	      space-before="2mm"
-	      keep-with-next.within-page="always">
-      <xsl:apply-templates/>
-    </fo:block>
-  </xsl:template>
-
-  <xsl:template match="section/desc|subsection/desc">
+  <xsl:template match="section/desc">
     <fo:block margin-left="{$item-indent}mm" text-align="justify" font-size="{$text-size}pt">
       <xsl:apply-templates/>
     </fo:block>
@@ -153,11 +148,21 @@
   </xsl:template>
   
   <xsl:template match="item/title">
-    <fo:block text-align="start" font-style="italic"><xsl:apply-templates/></fo:block>
+    <fo:block text-align="start" font-style="bold" font-size="{$item-title-size}pt" space-after="1mm"><xsl:apply-templates/></fo:block>
   </xsl:template>
 
   <xsl:template match="item/desc">
-    <fo:block text-align="justify"><xsl:apply-templates/></fo:block>
+    <fo:block text-align="justify" margin-left="{$item-content-indent}mm"><xsl:apply-templates/></fo:block>
+  </xsl:template>
+
+  <xsl:template match="subtitle">
+    <fo:block text-align="start" font-style="bold" margin-left="{$subtitle-indent}mm" space-before="1mm">
+    <xsl:apply-templates/>
+    </fo:block>
+  </xsl:template>
+
+  <xsl:template match="subdesc">
+    <fo:block text-align="justify" margin-left="{$subdesc-indent}mm"><xsl:apply-templates/></fo:block>
   </xsl:template>
   
   <xsl:template match="section/item|subsection/item">
