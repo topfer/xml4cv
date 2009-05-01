@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<cv>
+  <data display="Personal information">
+    <name display="Name">
+      <firstname>Thomas</firstname>
+      <lastname>Fazekas</lastname>
+	  <!-- <title>Dr.</title> -->
+    </name>
+    <email smtp="thomas.fazekas@gmail.com" display="Email"/>
+    <!-- <homepage uri="http://cactus.rulez.org/"/> -->
+    <address display="Address">
+      <country>Belgium</country>
+      <city>Heverlee</city>
+      <street>Ijzerenmolenstraat 22, Bus 301</street>
+      <zip>3001</zip>
+    </address>
+    <telephone display="Telephone">0470 598579</telephone>
+    <birthday display="Birthday">27 January 1976</birthday>
+    <age display="Age">32 years</age>
+  </data>
+  <!--
+  <section>
+    <title>Motivation</title>
+    <desc>
+      After seven years of develoxping high-quality Free Software,
+      contributing to projects with hundreds of developers from all
+      around the globe, using a wide array of technologies, all the
+      while keeping an eye on the bleeding edge, I am now ready to
+      take a leap into commercial software development.
+    </desc>
+  </section>
+  -->
+  <section>
+	<title>Education</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      1999 - 2000 Technical University of Cluj-Napoca, Romania, Post graduate studies (Master course), CS dept.
+      <desc>
+        Major in compilers and language grammar
+      </desc>
+    </item>
+    <item>
+      1994 - 1999 Technical University of Cluj-Napoca, Romania, Computer Science departement, bachelor's degree
+      <desc>
+        Diploma work : implementing fast, reliable communication protocol over unreliable networks. Practically
+        the choice for the underlying protocol was UDP for its speed and broadcasting capabilities. The protocol
+        itself was a Toke-ring like implementation where each node could broadcast messages as long as it held
+        a token, updating it and passing it on after transmission job was finished.
+      </desc>
+    </item>
+    <item>
+      1994 Graduated Mihai Eminescu College, Special informatics class
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Certifications</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      2008 Linux Professional Institute level 1 certification
+      <desc><url>https://www.lpi.org/verify</url></desc>
+      <desc>LPI ID : LPI000101766</desc>
+      <desc>Verification code : bfeqzwqa7w</desc>
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Employment history</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      2008 Freelancer, Leuven, Belgium
+      <desc>Part of a larger team developing web based 3-tier system using J2EE, Apache Tomcat and Oracle 9i/MySQL.
+      Underlying technologies : Hibernate, Struts, Springs, Eclipse (Java)</desc>
+    </item>
+    <item>
+      2001 - 2007 Mission Critical SA, Kortenberg, Belgium
+      <desc>I've been part of multiple smaller projects involving some sort of web-based 3-tier application
+      development and server maintenance. Exposure to RDF, ontologies and logical programing language</desc>
+      <desc>2001 -      Extensive Perl scripting for PowerBuilder source reverse engineering (C/C++, Perl)</desc>
+      <desc>2002 -      VisualJava, improving resource utilization of a large VJava project (Java)</desc>
+      <desc>2003 -      Part of team developing inhouse PKI implementation, SSO through Apache module (C/C++)</desc>
+      <desc>
+        2004 - 2006 Compliance management system. Involved technologies : C/C++, XML, XSLT, Apache modules,
+        Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
+      </desc>
+      <desc>2006 - 2007 Development of XUL based Web interface for data mining application. Working with
+      RDF, ontologies based workflow (XUL, CSS, Javascript)</desc>
+    </item>
+    <item>
+      2000 - 2001 Siemens AG, Budapest, Berlin
+      <desc>Part of a larger team developing Web based monitoring application for HiPath telco centers</desc>
+      <desc>Involved technologies : C/C++, Java, Javascript, RMX, SCOUnix/Linux</desc>
+    </item>
+    <item>
+      1999 - 2000 Internship program with Sysdata Kft, Budapest, part of Siemens IT Solutions
+      <desc>I was involved as part of a small team in creating web based data mining application for Siemens Hicom 4000
+      midrange call centers</desc>
+      <desc>Involved technologies : C/C++, CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
+    </item>
+    </ulist>
+  </section>
+
+  <page-break/>
+
+  <section>
+	<title>Skills</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      Object Orientated Programming and Design (5 yers C/C++, 3 years Java)
+    </item>
+    <item>
+      Scripting experience : Perl/Python. Extensive shell scripting, I was responsible for comprehensive
+      backup shell script, Tomcat, mysql, svn monitoring and continuous integration servers
+    </item>
+    <item>
+      Extensive OS administration experience involving multiple linux flavours (Debian, Redhat, Suse),
+      MacOSX, Solaris10, FreeBSD, some WindowsServer experience
+    </item>
+    <item>
+      Web development (XHTML, CSS, XSLT, ECMAScript/JavaScript)
+    </item>
+    <item>
+      Struts, Hibernate and Spring experience
+    </item>
+    <item>
+      ANT and JUnit scripting
+    </item>
+    <item>
+      MySQL, SQL Server
+    </item>
+    <item>
+      Hands on experience with several virtualization methods : XEN, VMWare, KVM, FreeBSD Jails, Solaris10 Containers
+    </item>
+    <item>
+      Service administration : Apache, Tomcat, FTP, SSH, LDAP, SVN, MTA, NTP
+    </item>
+    <item>
+      Hardware knowledge : Pulled apart/put togehter/upgraded several Dell PowerEdge, Apple XServe and 
+      Sun Fireblade servers. Installed software and hardware RAID 0,1,5
+    </item>
+    <item>
+      Drivers licence holder
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Language skills</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      Hungarian, Native language
+    </item>
+    <item>
+      English, Romanian fluent 
+    </item>
+    <item>
+      Flemish, average
+    </item>
+    <item>
+      French, basic
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Current (extracurricular) interests</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      Lisp/ELisp and Python/django
+    </item>
+    <item>
+      Improving my Flemish language skills
+    </item>
+    </ulist>
+  </section>
+
+</cv>

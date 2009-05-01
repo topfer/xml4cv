@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<cv>
+  <data display="Persoonlijke gegevens">
+    <name display="Naam">
+      <firstname>Thomas</firstname>
+      <lastname>Fazekas</lastname>
+	  <!-- <title>Dr.</title> -->
+    </name>
+    <email smtp="thomas.fazekas@gmail.com" display="Email"/>
+    <!-- <homepage uri="http://cactus.rulez.org/"/> -->
+    <address display="Adres">
+      <country>Belgi&#xeb;</country>
+      <city>Heverlee</city>
+      <street>Ijzerenmolenstraat 22, Bus 301</street>
+      <zip>3001</zip>
+    </address>
+    <telephone display="Telefoon">0470 598579</telephone>
+    <birthday display="Geboortedatum">27 January 1976</birthday>
+    <age display="Leeftijd">32 jaar</age>
+  </data>
+  <!--
+  <section>
+    <title>Motivation</title>
+    <desc>
+      After seven years of develoxping high-quality Free Software,
+      contributing to projects with hundreds of developers from all
+      around the globe, using a wide array of technologies, all the
+      while keeping an eye on the bleeding edge, I am now ready to
+      take a leap into commercial software development.
+    </desc>
+  </section>
+  -->
+  <section>
+	<title>Opleiding</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      1999 - 2000 Technical University of Cluj-Napoca, Romania, Post graduate studies (Master course), CS dept.
+      <desc>
+        Hoofdvak talen gramatica en compilers
+      </desc>
+    </item>
+    <item>
+      1994 - 1999 Technical University of Cluj-Napoca, Romania, Computer Science departement, bachelor's degree
+      <desc>
+        Diploma werk : ontwikkelen en uitvoeren een snel, betrouwbaar communicatie protocol over een onbetrouwbaar netwerk. 
+        De basis protocol was UDP voor snellheid, efficiëntie een de broadcast mogelijkheid, waar elk knooppunt in de netwerk 
+        krijgt de mogelijkheid te broadcast waneer ontvangt een speciefieke informatiepakket (token)
+      </desc>
+    </item>
+    <item>
+      1994 Mihai Eminescu College, Special informatics class
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Certificaten</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      2008 Linux Professional Institute level 1 certification
+      <desc><url>https://www.lpi.org/verify</url></desc>
+      <desc>LPI ID : LPI000101766</desc>
+      <desc>Verification code : bfeqzwqa7w</desc>
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Werkervaring</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      2008 Zelfstandig, Leuven, Belgium
+      <desc>Maakt deel uit van een groter werken met web based 3-tier system using J2EE, Apache Tomcat, Oracle 9i/MySQL.
+      Gebruikte technologies : Hibernate, Struts, Springs, Eclipse (Java)</desc>
+    </item>
+    <item>
+      2001 - 2007 Mission Critical SA, Kortenberg, Belgium
+      <desc>Meerdere ontwikkelingsprojecten met web-based 3-tier aplicaties
+      een server beheerder. Werken met RDF, ontologies and logical programing language</desc>
+      <desc>2001 -      Perl scripting voor PowerBuilder source reverse engineering (C/C++, Perl)</desc>
+      <desc>2002 -      VisualJava, verbeteren geheugen gebruik van een groot VJava project (Java)</desc>
+      <desc>2003 -      Ontwikkelen inhouse PKI system, SSO through Apache module (C/C++)</desc>
+      <desc>
+        2004 - 2006 Compliance management system. Technologies : C/C++, XML, XSLT, Apache modules,
+        Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
+      </desc>
+      <desc>2006 - 2007 Ontwikkelen XUL based Web interface voor data mining system. Technologies
+      RDF, ontologies based workflow (XUL, CSS, Javascript)</desc>
+    </item>
+    <item>
+      2000 - 2001 Siemens AG, Budapest, Berlin
+      <desc>Maakt deel uit van een groter team ontwikkelen Web based monitoring aplicatie voor HiPath telco centers</desc>
+      <desc>Technologies : C/C++, Java, Javascript, RMX, SCOUnix/Linux</desc>
+    </item>
+    <item>
+      1999 - 2000 Internship program met Sysdata Kft, Budapest, deel van Siemens IT Solutions
+      <desc>Deel van een 2 person team in creating web based data mining application for Siemens Hicom 4000
+      midrange call centers</desc>
+      <desc>Involved technologies : C/C++, CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
+    </item>
+    </ulist>
+  </section>
+
+  <page-break/>
+
+  <section>
+	<title>Technische vaardigheden en competenties</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      Object Orientated Programming and Design (5 jaar C/C++, 3 jaar Java)
+    </item>
+    <item>
+      Scripting : Perl/Python. Shell scripting, verantwoordelijk voor
+      samba backup shell scripts, Tomcat, mysql, svn monitoring een continuous integration servers
+    </item>
+    <item>
+      Systeembeheerder linux flavours (Debian, Redhat, Suse), MacOSX, Solaris10, FreeBSD
+    </item>
+    <item>
+      Web development (XHTML, CSS, XSLT, ECMAScript/JavaScript)
+    </item>
+    <item>
+      Struts/Hibernate/Spring 
+    </item>
+    <item>
+      ANT,JUnit scripting
+    </item>
+    <item>
+      MySQL, SQL Server
+    </item>
+    <item>
+      Virtualisatie : XEN, VMWare, KVM, FreeBSD Jails, Solaris10 Containers
+    </item>
+    <item>
+      Service administration : Apache, Tomcat, FTP, SSH, LDAP, SVN, MTA, NTP
+    </item>
+    <item>
+      Hardware : Upgrade Dell PowerEdge, Apple XServe and 
+      Sun Fireblade servers. Instalatie van software and hardware RAID 0,1,5
+    </item>
+    <item>
+      Rijbewijs cat B
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Talenkennis</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      Hongaars moedertaal
+    </item>
+    <item>
+      Engels, Roemeens vloeiend  
+    </item>
+    <item>
+      Nederlands redelijk goed
+    </item>
+    <item>
+      Frans basic
+    </item>
+    </ulist>
+  </section>
+
+  <section>
+	<title>Current (extracurricular) interests</title>
+	<desc>
+	</desc>
+    <ulist>
+    <item>
+      Lisp/ELisp and Python/django
+    </item>
+    <item>
+      Mijn nederlands verbeteren
+    </item>
+    </ulist>
+  </section>
+
+</cv>
