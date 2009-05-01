@@ -19,7 +19,18 @@
     <birthday display="Birthday">27 January 1976</birthday>
     <age display="Age">32 years</age>
   </data>
-
+  <!--
+  <section>
+    <title>Motivation</title>
+    <desc>
+      After seven years of develoxping high-quality Free Software,
+      contributing to projects with hundreds of developers from all
+      around the globe, using a wide array of technologies, all the
+      while keeping an eye on the bleeding edge, I am now ready to
+      take a leap into commercial software development.
+    </desc>
+  </section>
+  -->
   <section>
 	<title>Education</title>
 	<desc>
@@ -52,7 +63,7 @@
 	</desc>
     <ulist>
     <item>
-      <title>2008 Linux Professional Institute level 1 certification (Leuven, Begium)</title>
+      2008 Linux Professional Institute level 1 certification
       <desc><url>https://www.lpi.org/verify</url></desc>
       <desc>LPI ID : LPI000101766</desc>
       <desc>Verification code : bfeqzwqa7w</desc>
@@ -66,37 +77,31 @@
 	</desc>
     <ulist>
     <item>
-      <title>2008 Freelancer, Leuven, Belgium</title>
-      <desc>Part of a larger team developing web based 3-tier Compliance Management System</desc>
-      <desc>Responsibilities : Java development, system and network administration</desc>
-      <desc>Technologies used : J2EE, Hibernate, Struts, Springs, Eclipse, Ant, JUnit, Shell scripting</desc>
-      <desc>Operating systems : Solaris10, MacOSX, Linux</desc>
-      <desc>Services responsible for : VMWare, Solaris Zones, NTP, MySQL, Continous Intgration Server, Apache Tomcat, Monitoring server</desc>
+      2008 Freelancer, Leuven, Belgium
+      <desc>Part of a larger team developing web based 3-tier system using J2EE, Apache Tomcat and Oracle 9i/MySQL.
+      Underlying technologies : Hibernate, Struts, Springs, Eclipse (Java)</desc>
     </item>
     <item>
-      <title>2001 - 2007 Mission Critical SA, Kortenberg, Belgium</title>
-      <desc>Part of multiple smaller projects involving some form of web-based 3-tier application
-      development and server maintenance. Hands-on experience with XEN, KVM, VMWare.Exposure to RDF, Ontologies and logical programing language</desc>
-      <subtitle>PowerBuilder source reverse engineering task</subtitle>
-      <subdesc>Technologies used : Perl</subdesc>
-      <subtitle>VisualJava, improving resource utilization of a large VJava project</subtitle>
-      <subdesc>Technologies used : Java, Javascript, DOM</subdesc>
-      <subtitle>Part of team developing inhouse PKI implementation, SSO through Apache module</subtitle>
-      <subdesc>Technologies : C/C++, PKI, Apache modules, LDAP, COM</subdesc>
-      <subtitle>Compliance management system</subtitle>
-      <subdesc>Technologies : C/C++, XML, XSLT, Apache modules, Xalan/Xerces </subdesc>
-      <subdesc>Services : Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution</subdesc>
-      <subtitle>Development of XUL based Web interface for data mining application</subtitle>
-      <subdesc>Technologies : RDF, Ontologies based workflow, XUL, CSS, Javascript</subdesc>
+      2001 - 2007 Mission Critical SA, Kortenberg, Belgium
+      <desc>I've been part of multiple smaller projects involving some sort of web-based 3-tier application
+      development and server maintenance. Exposure to RDF, ontologies and logical programing language</desc>
+      <desc>2001 -      Extensive Perl scripting for PowerBuilder source reverse engineering (C/C++, Perl)</desc>
+      <desc>2002 -      VisualJava, improving resource utilization of a large VJava project (Java)</desc>
+      <desc>2003 -      Part of team developing inhouse PKI implementation, SSO through Apache module (C/C++)</desc>
+      <desc>
+        2004 - 2006 Compliance management system. Involved technologies : C/C++, XML, XSLT, Apache modules,
+        Xalan/Xerces, Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution
+      </desc>
+      <desc>2006 - 2007 Development of XUL based Web interface for data mining application. Working with
+      RDF, ontologies based workflow (XUL, CSS, Javascript)</desc>
     </item>
     <item>
-      <title>2000 - 2001 Siemens AG, Budapest, Berlin</title>
+      2000 - 2001 Siemens AG, Budapest, Berlin
       <desc>Part of a larger team developing Web based monitoring application for HiPath telco centers</desc>
-      <desc>Technologies : C/C++, Java, Javascript</desc>
-      <desc>Operating systems : SCOUnix/Unixware, Linux</desc>
+      <desc>Involved technologies : C/C++, Java, Javascript, RMX, SCOUnix/Linux</desc>
     </item>
     <item>
-      <title>1999 - 2000 Internship program with Sysdata Kft, Budapest, part of Siemens IT Solutions</title>
+      1999 - 2000 Internship program with Sysdata Kft, Budapest, part of Siemens IT Solutions
       <desc>I was involved as part of a small team in creating web based data mining application for Siemens Hicom 4000
       midrange call centers</desc>
       <desc>Involved technologies : C/C++, CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
@@ -104,7 +109,7 @@
     </ulist>
   </section>
 
-  <!-- <page-break/> -->
+  <page-break/>
 
   <section>
 	<title>Skills</title>
