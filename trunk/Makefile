@@ -6,6 +6,7 @@ endif
 
 SRCFILES := $(wildcard *.xml)
 TRGFILES := $(patsubst %.xml,%.trg,$(wildcard *.xml))
+#TRGFILES := cv.en.trg
 
 default			:	all
 
