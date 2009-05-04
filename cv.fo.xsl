@@ -234,14 +234,6 @@
     </xsl:choose>
   </xsl:template>
   
-  <!--
-  <xsl:template match="desc">
-    <fo:block margin-left="4mm" text-align="justify" font-size="{$text-size}pt">
-      <xsl:apply-templates/>
-    </fo:block>
-  </xsl:template>
-  -->
-  <!--
     <xsl:template match="p">
         <fo:block space-after="{$item-spacing}mm">
             <xsl:apply-templates/>
@@ -259,5 +251,5 @@
             <xsl:apply-templates/>
         </fo:block>
     </xsl:template>
-    -->
+
 </xsl:stylesheet>
