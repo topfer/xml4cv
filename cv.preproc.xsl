@@ -17,16 +17,16 @@
 
   <xsl:template match="data">
     <xsl:copy-of select="."/>
-    <section>
-      <title><xsl:value-of select="@display"/></title>
+          <datasection>
+      <sectiontitle><xsl:value-of select="@display"/></sectiontitle>
       <xsl:apply-templates/>
-    </section>
+          </datasection>
   </xsl:template>
 
   <xsl:template match="data/name">
     <item>
-      <title><xsl:value-of select="@display"/>:</title>
-      <desc>
+      <datahead><xsl:value-of select="@display"/>:</datahead>
+      <datadesc>
 	    <xsl:if test="title">
 	      <xsl:apply-templates select="title"/>
 	      <xsl:text> </xsl:text>
@@ -34,75 +34,74 @@
 	    <xsl:apply-templates select="lastname"/>,
 	    <xsl:text> </xsl:text>
 	    <xsl:apply-templates select="firstname"/>
-      </desc>
+      </datadesc>
     </item>
   </xsl:template>
 
   <xsl:template match="data/address">
     <item>
-      <title><xsl:value-of select="@display"/>:</title>
-      <desc>
-	    <xsl:apply-templates select="street"/>,
-	    <xsl:apply-templates select="city"/>,
-	    <xsl:apply-templates select="zip"/>
-	    <xsl:text> </xsl:text>
+      <datahead><xsl:value-of select="@display"/>:</datahead>
+      <datadesc>
+	    <xsl:apply-templates select="street"/><xsl:text>,</xsl:text>
+	    <xsl:apply-templates select="city"/><xsl:text>,</xsl:text>
+	    <xsl:apply-templates select="zip"/><xsl:text> </xsl:text>
 	    <xsl:apply-templates select="country"/>
-      </desc>
+      </datadesc>
     </item>
   </xsl:template>
   
   <xsl:template match="data/telephone">
     <item>
-      <title><xsl:value-of select="@display"/>:</title>
-      <desc><xsl:apply-templates/></desc>
+      <datahead><xsl:value-of select="@display"/>:</datahead>
+      <datadesc><xsl:apply-templates/></datadesc>
     </item>
   </xsl:template>
   
   <xsl:template match="data/email[@smtp]">
     <item>
-      <title><xsl:value-of select="@display"/>:</title>
-      <desc><a href="mailto:{@smtp}"><xsl:value-of select="@smtp"/></a></desc>
+      <datahead><xsl:value-of select="@display"/>:</datahead>
+      <datadesc><a href="mailto:{@smtp}"><xsl:value-of select="@smtp"/></a></datadesc>
     </item>
   </xsl:template>
 
   <xsl:template match="data/email[not (@smtp)]">
     <item>
-      <title><xsl:value-of select="@display"/>:</title>
-      <desc><xsl:apply-templates/></desc>
+      <datahead><xsl:value-of select="@display"/>:</datahead>
+      <datadesc><xsl:apply-templates/></datadesc>
     </item>
   </xsl:template>
   
   <xsl:template match="data/homepage[@uri]">
     <item>
-      <title>Home page:</title>
-      <desc><a href="{@uri}"><xsl:value-of select="@uri"/></a></desc>
+      <datahead>Home page:</datahead>
+      <datadesc><a href="{@uri}"><xsl:value-of select="@uri"/></a></datadesc>
     </item>
   </xsl:template>
 
   <xsl:template match="data/homepage[not (@uri)]">
     <item>
-      <title>Home page:</title>
-      <desc><xsl:apply-templates/></desc>
+      <datahead>Home page:</datahead>
+      <datadesc><xsl:apply-templates/></datadesc>
     </item>
   </xsl:template>
 
   <!--
   <Xsl:template match="data/age">
     <item>
-      <title><xsl:value-of select="@display"/>:</title>
-      <desc>
+      <datahead><xsl:value-of select="@display"/>:</datahead>
+      <datadesc>
         <xsl:apply-templates/>
-      </desc>
+      </datadesc>
     </item>
   </xsl:template>  
   -->
   
   <xsl:template match="data/birthday">
     <item>
-      <title>Date of birth:</title>
-      <desc>
+      <datahead>Date of birth:</datahead>
+      <datadesc>
         <xsl:apply-templates/>
-      </desc>
+      </datadesc>
     </item>
   </xsl:template>  
 
