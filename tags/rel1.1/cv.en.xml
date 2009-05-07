@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<cv>
+  
+  <data display="Personal information">
+    <name display="Name">
+      <firstname>Thomas</firstname>
+      <lastname>Fazekas</lastname>
+    </name>
+    <email smtp="thomas.fazekas@gmail.com" display="Email"/>
+    <address display="Address">
+      <country>Belgium</country>
+      <city>Heverlee</city>
+      <street>Ijzerenmolenstraat 22, Bus 301</street>
+      <zip>3001</zip>
+    </address>
+    <telephone display="Telephone">0470 598579</telephone>
+    <birthday display="Birthday">27 January 1976</birthday>
+    <age display="Age">32 years</age>
+  </data>
+  
+  
+  <section>
+    
+    <title>Education</title>
+    
+    <block>
+      <title>1999 - 2000 Technical University of Cluj-Napoca, Romania, Post graduate studies (Master course), CS dept.</title>
+      <desc>Major in compilers and language grammar</desc>
+    </block>
+    
+    <block>
+      <title>1994 - 1999 Technical University of Cluj-Napoca, Romania, Computer Science departement, bachelor's degree</title>
+      <desc>
+        Diploma work : implementing fast, reliable communication protocol over unreliable networks. Practically
+        the choice for the underlying protocol was UDP for its speed and broadcasting capabilities. The protocol
+        itself was a Toke-ring like implementation where each node could broadcast messages as long as it held
+        a token, updating it and passing it on after transmission job was finished.
+      </desc>
+    </block>
+    
+    <block>
+      <title>1994 Graduated Mihai Eminescu College, Special informatics class</title>
+    </block>
+    
+  </section>
+  
+  <section>
+    
+    <title>Certifications</title>
+    
+    <block>
+      <title>2008 Linux Professional Institute level 1 certification</title>
+      <desc>
+        <url>https://www.lpi.org/verify</url>
+      </desc>
+      <desc>LPI ID : LPI000101766</desc>
+      <desc>Verification code : bfeqzwqa7w</desc>
+    </block>
+    
+    
+  </section>
+  
+  <section>
+    <title>Employment history</title>
+    <block>
+      
+      <title>2008 Freelancer, Leuven, Belgium</title>
+      <desc>Part of a larger team developing web based 3-tier Compliance Management System</desc>
+      <block>
+        <desc>Responsibilities : Java development, system and network administration</desc>
+        <desc>Technologies used : J2EE, Hibernate, Struts, Springs, Eclipse, Ant, JUnit, Shell scripting</desc>
+        <desc>Operating systems : Solaris10, MacOSX, Linux</desc>
+        <desc>Services responsible for : VMWare, Solaris Zones, NTP, MySQL, Continous Intgration Server, Apache Tomcat, Monitoring server</desc>
+      </block>
+      <title>2001 - 2007 Mission Critical SA, Kortenberg, Belgium</title>
+      <desc>Part of multiple smaller projects involving some form of web-based 3-tier application
+        development and server maintenance. Hands-on experience with XEN, KVM, VMWare.Exposure to RDF, Ontologies and logical programing
+        language
+      </desc>
+      <block>
+        <title>PowerBuilder source reverse engineering task</title>
+        <block>
+          <title>Technologies used : Perl</title>
+        </block>
+        <title>VisualJava, improving resource utilization of a large VJava project</title>
+        <block>
+          <title>Technologies used : Java, Javascript, DOM</title>
+        </block>
+        <title>Part of team developing inhouse PKI implementation, SSO through Apache module</title>
+        <block>
+          <title>Technologies : C/C++, PKI, Apache modules, LDAP, COM</title>
+        </block>
+        <title>Compliance management system</title>
+        <block>
+          <title>Technologies : C/C++, XML, XSLT, Apache modules, Xalan/Xerces </title>
+          <title>Services : Darwin(MacOSX)/FreeBSD administration, digital certificates creation/distribution</title>
+        </block>
+        <title>Development of XUL based Web interface for data mining application</title>
+        <block>
+          <title>Technologies : RDF, Ontologies based workflow, XUL, CSS, Javascript</title>
+        </block>
+      </block>
+      
+      <title>2000 - 2001 Siemens AG, Budapest, Berlin</title>
+      <desc>Part of a larger team developing Web based monitoring application for HiPath telco centers</desc>
+      <block>
+        <desc>Technologies : C/C++, Java, Javascript</desc>
+        <desc>Operating systems : SCOUnix/Unixware, Linux</desc>
+      </block>
+      
+      <title>1999 - 2000 Internship program with Sysdata Kft, Budapest, part of Siemens IT Solutions</title>
+      <desc>I was involved as part of a small team in creating web based data mining application for Siemens Hicom 4000
+        midrange call centers
+      </desc>
+      <block>
+        <desc>Involved technologies : C/C++, CGI, Unixware7, Java applets, XHTML, Javascript/ECMAscript</desc>
+      </block>
+      
+    </block>
+  </section>
+  
+  <section>
+    <title>Skills</title>
+    
+    <block>
+      <block>
+        <title>
+          Object Orientated Programming and Design (5 yers C/C++, 3 years Java)
+        </title>
+        <title>
+          Scripting experience : Perl/Python. Extensive shell scripting, I was responsible for comprehensive
+          backup shell script, Tomcat, mysql, svn monitoring and continuous integration servers
+        </title>
+        <title>
+          Extensive OS administration experience involving multiple linux flavours (Debian, Redhat, Suse),
+          MacOSX, Solaris10, FreeBSD, some WindowsServer experience
+        </title>
+        <title>
+          Web development (XHTML, CSS, XSLT, ECMAScript/JavaScript)
+        </title>
+        <title>
+          Struts, Hibernate and Spring experience
+        </title>
+        <title>
+          ANT and JUnit scripting
+        </title>
+        <title>
+          MySQL, SQL Server
+        </title>
+        <title>
+          Hands on experience with several virtualization methods : XEN, VMWare, KVM, FreeBSD Jails, Solaris10 Containers
+        </title>
+        <title>
+          Service administration : Apache, Tomcat, FTP, SSH, LDAP, SVN, MTA, NTP
+        </title>
+        <title>
+          Hardware knowledge : Pulled apart/put togehter/upgraded several Dell PowerEdge, Apple XServe and 
+          Sun Fireblade servers. Installed software and hardware RAID 0,1,5
+        </title>
+        <title>
+          Drivers licence holder
+        </title>
+      </block>
+    </block>
+  </section>
+  
+  <section>
+    <title>Language skills</title>
+    <block>
+      <block>
+        <title>Hungarian, Native language</title>
+        <title>English, Romanian fluent</title>
+        <title>Flemish, average</title>
+        <title>French, basic</title>
+      </block>
+    </block>
+  </section>
+  
+  <section>
+    <title>Current (extracurricular) interests</title>
+    <block>
+      <block>
+        <title>
+          Lisp/ELisp and Python/django
+        </title>
+        <title>
+          Improving my Flemish language skills
+        </title>
+      </block>
+    </block>
+  </section>
+  
+</cv>

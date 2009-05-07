@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<cl>
+
+  <data>
+    <name>
+      <firstname>Thomas</firstname>
+      <lastname>Fazekas</lastname>
+    </name>
+  </data>
+
+  <section>
+    Dear Madam/Sir,
+  </section>
+
+  <section>
+    I become aware of your requirements to hire a software engineer via
+    your website and I enclose my resume in application for this role.
+  </section>
+
+  <section>
+    As you can see in the enclosed resume, I have an academic background in 
+    software engineering combined with over eight years of experience in
+    the industry that covers C/C++, Java and a wide range of OS administration.
+  </section>
+
+<!-- 
+  <section>
+    My experience as a software developer includes two years of Java development
+    for an Ireland based company where I have the responsibility of
+    developing a Compliance Knowledge system. At a technical level I
+    work with Hibernate, Spring, Struts, Tomcat and Eclipse.
+    My first exposure to java was in 1995 and since then I've been working
+    on a number of java based projects involving Applets, JSPs and JDBC.
+    Prior my current job I've been involved in a two year long project
+    developing a web based data mining application using C++, XML, XSLT, Xalan, Apache.
+  </section>
+-->
+<!--
+  <section>
+    My experience as a Java developer includes two years of development
+    at an Ireland based company where I have the responsibility of
+    developing a Compliance Knowledge system. At a technical level I
+    work with Hibernate, Spring, Struts, Tomcat and Eclipse.
+    My first exposure to java was in 1995 and since then I've been working
+    on a number of java based projects involving Applets, JSPs and JDBC.
+    Prior my current job I've been involved in a two year long project
+    developing a web based data mining application using C++, XML, XSLT, Xalan, Apache.
+  </section>
+-->
+<!--
+  <section>
+    I feel that my experience matches the requirements of this position therefore
+    please consider my application for the advertised job. Should you agree after reviewing 
+    the attached resume, I would welcome a personal meeting for further discussion on 
+    your needs and my ability to meet them.
+  </section>
+-->
+
+  <section>
+    Should you be considering my application  after reviewing the attached resume, 
+    I would welcome a personal meeting for further discussion on your needs and my ability to meet them.
+  </section>
+
+  <section>
+    Thank you for your time, consideration and forthcoming response
+  </section>
+
+  <section>
+    Sincerely
+  </section>
+
+  <section>
+    Thomas Fazekas
+  </section>
+</cl>
