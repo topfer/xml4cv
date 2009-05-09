@@ -24,8 +24,9 @@ cl.%.fo			:	cl.%.pre.xml
 
 %.trg			:	%.fo
 				fop -fo tmp.step2.fo -pdf $*.pdf
-				fop -fo tmp.step2.fo -dpi 128 -png $*.png
+				#fop -fo tmp.step2.fo -dpi 128 -png $*.png
 				fop -fo tmp.step2.fo -rtf $*.rtf
+				#fop -fo tmp.step2.fo -txt $*.txt
 
 all				:	$(TRGFILES)
 
