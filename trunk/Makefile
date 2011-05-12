@@ -1,4 +1,5 @@
 XSLTPROC=xsltproc
+FOP=/opt/bin/fop
 
 ifndef TRGLANG
   TRGLANG=en
@@ -23,10 +24,10 @@ cl.%.fo			:	cl.%.pre.xml
 				$(XSLTPROC) -o tmp.step2.fo cl.fo.xsl tmp.step1.xml
 
 %.trg			:	%.fo
-				fop -fo tmp.step2.fo -pdf $*.pdf
-				#fop -fo tmp.step2.fo -dpi 128 -png $*.png
-				fop -fo tmp.step2.fo -rtf $*.rtf
-				#fop -fo tmp.step2.fo -txt $*.txt
+				$(FOP) -fo tmp.step2.fo -pdf $*.pdf
+				#$(FOP) -fo tmp.step2.fo -dpi 128 -png $*.png
+				$(FOP) -fo tmp.step2.fo -rtf $*.rtf
+				#$(FOP) -fo tmp.step2.fo -txt $*.txt
 
 all				:	$(TRGFILES)
 
