@@ -10,9 +10,9 @@
     <email smtp="thomas.fazekas@gmail.com" display="Email"/>
     <address display="Address">
       <country>Belgi&#xeb;</country>
-      <city>Heverlee</city>
-      <street>Ijzerenmolenstraat 22, Bus 301</street>
-      <zip>3001</zip>
+      <city>Leuven</city>
+      <street>Heilige-Geeststraat 160</street>
+      <zip>3000</zip>
     </address>
     <telephone display="Telefoon">0470 598579</telephone>
     <birthday display="Geboortedatum">27 January 1976</birthday>
@@ -50,9 +50,15 @@
     
     <block>
       <title>2008 Linux Professional Institute level 1 certification</title>
-      <desc><url>https://www.lpi.org/verify</url></desc>
+      <desc>
+        <url>https://www.lpi.org/verify</url>
+      </desc>
       <desc>LPI ID : LPI000101766</desc>
       <desc>Verification code : bfeqzwqa7w</desc>
+      <title>2011 Linux Professional Institute level 2 certification</title>
+      <desc>
+        <url>https://www.lpi.org/verify</url>
+      </desc>
     </block>
     
     
@@ -61,6 +67,14 @@
   <section>
 	<title>Werkervaring</title>
     <block>
+
+      <title>Heden, Contractor, Antwerpen, Belgie</title>
+      <desc>Operation support, control/manage software release</desc>
+      <block>
+        <desc>Technologien : Shell scripting, Perl, Java</desc>
+        <desc>Besturingssysteem : Linux, Aix</desc>
+        <desc>Verantwoordelijkheden : JBOSS, MySQL, Continous Intgration Server, Monitoring server</desc>
+      </block>      
       
       <title>2008 Zelfstandig, Leuven, Belgium</title>
       <desc>Maakt deel uit van een groter werken met web based 3-tier system</desc>
